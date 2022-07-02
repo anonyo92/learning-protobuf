@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DummyMessage {
+  uint32 id = 1;
+}
