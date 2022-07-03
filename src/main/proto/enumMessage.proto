@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package example.enumerations;
 
+option java_package = "com.example.enumerations";
+option java_multiple_files = true;
+
 enum EyeColor {
   EYE_COLOR_UNSPECIFIED = 0;
   EYE_COLOR_GREEN = 1;

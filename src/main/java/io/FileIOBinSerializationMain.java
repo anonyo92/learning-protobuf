@@ -1,6 +1,6 @@
 package io;
 
-import example.simple.SimpleMessageOuterClass.SimpleMessage;
+import com.example.simple.SimpleMessage;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -11,7 +11,7 @@ public class FileIOBinSerializationMain {
 	private static void writeToFile(SimpleMessage message, String filepath){
 		try (FileOutputStream fos = new FileOutputStream(filepath)) {
 			message.writeTo(fos);
-			System.out.println("Wrote this message to file: " + message);
+			System.out.println("Wrote this message to file:\n" + message);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -1,8 +1,8 @@
 package json;
 
+import com.example.simple.SimpleMessage;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.google.protobuf.util.JsonFormat;
-import example.simple.SimpleMessageOuterClass.SimpleMessage;
 
 public class JsonConverterMain {
 	private static String toJson(SimpleMessage message) throws InvalidProtocolBufferException {

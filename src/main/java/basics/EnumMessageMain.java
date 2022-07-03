@@ -1,7 +1,7 @@
 package basics;
 
-import example.enumerations.EnumMessageOuterClass.EnumMessage;
-import example.enumerations.EnumMessageOuterClass.EyeColor;
+import com.example.enumerations.EnumMessage;
+import com.example.enumerations.EyeColor;
 
 public class EnumMessageMain {
 

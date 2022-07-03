@@ -1,7 +1,7 @@
 package basics;
 
-import example.complex.ComplexMessageOuterClass.ComplexMessage;
-import example.complex.ComplexMessageOuterClass.SimpleMessage;
+import com.example.complex.ComplexMessage;
+import com.example.complex.SimpleMessage;
 
 import java.util.Arrays;
 

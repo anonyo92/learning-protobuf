@@ -1,7 +1,7 @@
 package basics;
 
-import example.maps.MapMessageOuterClass.MapMessage;
-import example.maps.MapMessageOuterClass.ValueMessage;
+import com.example.maps.MapMessage;
+import com.example.maps.ValueMessage;
 
 import java.util.Map;
 

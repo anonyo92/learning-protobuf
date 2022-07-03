@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package example.oneofs;
 
+option java_package = "com.example.oneofs";
+option java_multiple_files = true;
+
 message OneOfMessage {
   oneof oneOfThese {
     string name = 1;

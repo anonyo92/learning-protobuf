@@ -1,6 +1,6 @@
 package basics;
 
-import example.oneofs.OneOfMessageOuterClass.OneOfMessage;
+import com.example.oneofs.OneOfMessage;
 
 public class OneOfMessageMain {
 
