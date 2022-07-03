@@ -1,3 +1,5 @@
+package basics;
+
 import example.enumerations.EnumMessageOuterClass.EnumMessage;
 import example.enumerations.EnumMessageOuterClass.EyeColor;
 

@@ -1,3 +1,5 @@
+package basics;
+
 import example.oneofs.OneOfMessageOuterClass.OneOfMessage;
 
 public class OneOfMessageMain {

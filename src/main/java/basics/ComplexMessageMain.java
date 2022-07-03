@@ -1,3 +1,5 @@
+package basics;
+
 import example.complex.ComplexMessageOuterClass.ComplexMessage;
 import example.complex.ComplexMessageOuterClass.SimpleMessage;
 

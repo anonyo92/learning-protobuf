@@ -1,3 +1,5 @@
+package basics;
+
 import example.maps.MapMessageOuterClass.MapMessage;
 import example.maps.MapMessageOuterClass.ValueMessage;
 
